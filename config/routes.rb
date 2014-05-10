@@ -1,5 +1,5 @@
 IDMC::Application.routes.draw do
-  get "draw_icon/draw"
+  get "draw" => "draw_icon#draw"
   root "login_page#login"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
