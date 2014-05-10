@@ -1,0 +1,38 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@media screen and (max-width: 480px) {
+  /* line 6, /home/miles/iDMC/app/assets/stylesheets/login_page.css.scss */
+  body {
+    background-image: url(/images/login-background.png);
+    background-repear: no-repeat;
+    background-size: 100%;
+  }
+
+  /* line 12, /home/miles/iDMC/app/assets/stylesheets/login_page.css.scss */
+  .container {
+    text-align: center;
+  }
+
+  /* line 16, /home/miles/iDMC/app/assets/stylesheets/login_page.css.scss */
+  #app-name {
+    color: white;
+  }
+
+  /* line 20, /home/miles/iDMC/app/assets/stylesheets/login_page.css.scss */
+  #login {
+    background-color: #E8E8E8;
+    border-radius: 10px;
+  }
+}
