@@ -4,6 +4,7 @@ function init() {
 	var el = document.getElementsByTagName("canvas")[0];
 	var ctx = el.getContext("2d");
 	var offset = findPos(el);  
+    // $("#canvas").height($("#canvas").width());
     
     ctx.rect(0,0,600,600);
 	ctx.fillStyle="black";
