@@ -1,0 +1,21 @@
+html {
+	background-color: #FFFFFFs;
+	width: 320px;
+	height: 568px;
+}
+body {
+	width: 100%;
+}
+
+.map-container {
+	width: 100%;
+}
+#list8 {background-color:#000000; width: 100%;}
+#list8 ul { list-style:none; width: 100%; padding-left: 30px;}
+#list8 ul li { font-family:Georgia,serif,Times; font-size:18px; margin-left:-1cm; }
+#list8 ul li a { display:block; width:300px; height:28px; background-color:#FFFFFF; border-left:5px solid #FF8888; border-right:5px solid #FFFFFF; padding-left:10px;
+  text-decoration:none; color:#000000; }
+#list8 ul li a:hover {  -moz-transform:rotate(-5deg); -moz-box-shadow:10px 10px 20px #000000;
+  -webkit-transform:rotate(-5deg); -webkit-box-shadow:10px 10px 20px #000000;
+  transform:rotate(-5deg); box-shadow:10px 10px 20px #000000; }
+}
